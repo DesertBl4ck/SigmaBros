@@ -23,7 +23,7 @@ Analizado mediante la teoría de juegos (Salen & Zimmerman, 2004), la estructura
 
 •	Acción no cancelable: Cada comando atacar, curarse, rodar)compromete al jugador a una animación completa. No se puede "cancelar" una acción a mitad de camino, convirtiendo cada entrada de botón en una decisión de alto riesgo.
 
-¿Qué experiencia busca generar? Relación con las lecturas.
+¿Qué experiencia busca generar?
 
 •	El Espacio Mente-Juego (Schell, 2008 - Cap. 3): Schell define que el juego real no habita en el software, sino en la experiencia generada en el jugador. Dark Souls utiliza la arquitectura vertical de Lordran para guiar esa experiencia. La claustrofobia de descender a zonas oscuras sin mapa culmina en una catarsis cuando el jugador desbloquea un atajo y descubre que volvió al Santuario del Enlace del Fuego. El alivio y la orientación provienen del dominio del mapa en la mente del jugador, no de un GPS en pantalla.
 
