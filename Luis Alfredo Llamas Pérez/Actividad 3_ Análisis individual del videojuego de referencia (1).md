@@ -21,9 +21,56 @@
 
   La jugabilidad se compone de una barra de salud que no regenera automáticamente  y un inventario difícil de tener siempre completo. Las reglas imponen la búsqueda continua de materiales (como vendas, alcohol o pólvora) para el *crafting* de recursos clave como botiquines, balas o cócteles Molotov. Asimismo, el abanico de acciones de control al personaje están delimitados por mecánicas de sigilo, ocultamiento en la maleza, desplazamiento por el suelo, etc. Siguiendo a **Salen & Zimmerman (2004)** y **Schell (2008)**, las reglas constitutivas (salud no regenerativa, inventario limitado y búsqueda de materiales para *crafting*) imponen límites al espacio de juego. Esto estructura las acciones permitidas del jugador (sigilo, ocultamiento, arrastrarse) ante una IA enemiga. 
 
-            **Experiencia busca generar**
+            **Lo que la Experiencia busca generar**
 
-          Busca principalmente hacerte sentir emociones fuertes, mostrándote a través de sus deslumbrantes gráficos la muerte visceral y fría de uno de los protagonistas, el remordimiento mediante escenas pasadas que se dieron con ese personaje, el vacío de tener un final que es solo un golpe más a tus emociones y que no está del todo claro, de cierta manera busca generar un trauma, porque a la mayoría de las personas se nos olvidan un gran porcentaje de los juegos que jugamos, pero los detalles de este(escenas desgarradoras clave) se recuerdan a años de haberlo jugado por que las emociones perduran y no precisamente buenas emociones(como en un trauma), además de que busca y consigue una inmersión en todos los sentidos con el audio, las funciones del control dualsense como la resistencia adaptativa de los gatillos, la bocina incluida en este mismo mando y su vibración.
+  Busca principalmente hacerte sentir emociones fuertes, mostrándote a través de sus deslumbrantes gráficos la muerte visceral y fría de uno de los protagonistas, el remordimiento mediante escenas pasadas que se dieron con ese personaje, el vacío de tener un final que es solo un golpe más a tus emociones y que no está del todo claro, de cierta manera busca generar un trauma, porque a la mayoría de las personas se nos olvidan un gran porcentaje de los juegos que jugamos, pero los detalles de este(escenas desgarradoras clave) se recuerdan a años de haberlo jugado por que las emociones perduran y no precisamente buenas emociones(como en un trauma), además de que busca y consigue una inmersión en todos los sentidos con el audio, las funciones del control dualsense como la resistencia adaptativa de los gatillos, la bocina incluida en este mismo mando y su vibración.
+
+## **Sí, hice uso de la IAG para:**
+
+* ---
+
+  \[ \] Crear presentaciones  
+* **\[ X \] Buscar información**  
+* \[ \] Redactar  
+* \[ \] Corregir redacción y ortografía  
+* \[ \] Resumir  
+* \[ \] Generar referencias  
+* \[ \] Procesar datos  
+* \[ \] Levantar datos  
+* \[ \] Interpretar datos  
+* \[ \] Crear imágenes  
+* \[ \] Otros (especifique): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## **Aplicaciones utilizadas**
+
+---
+
+**Las aplicaciones que usé fueron:**
+
+Gemini
+
+## **Porcentaje de uso de IAG**
+
+---
+
+De acuerdo con el total de cuartillas de mi redacción, el porcentaje hecho por la IAG corresponde a:
+
+| 10% | 20% | 30% | 40% | 50% | 60% | 70% | 80% | 90% | 100%   |
+| :---- | :---- | ----- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+|  |  | **\[ X \] 30%** |  |  |  |  |  |  |  |
+
+## **Validación y Evidencia**
+
+---
+
+**He validado que la información sea correcta y precisa:**
+
+* **\[ X \] Sí**  
+* \[ \] No
+
+**La dirección electrónica de la conversación y prompts que usé es:**
+
+https://share.gemini.google/BKv0rhMmXS5I
 
 **Bibliografía**
 
