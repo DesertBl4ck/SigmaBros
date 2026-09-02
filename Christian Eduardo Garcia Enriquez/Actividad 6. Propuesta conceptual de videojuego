@@ -1,0 +1,40 @@
+# Idea de Videojuego
+
+## Definición de la idea
+
+Un juego con cámara aérea, que combine capturas cinemáticas en momentos clave, mezclando terror psicológico con elementos de novela visual. La historia sigue una relación de pareja entre dos chicas, donde todo transcurre con normalidad hasta que una de ellas, quien vive con TOC, entra en una crisis. En ese momento, desde el punto de vista del jugador, la pantalla se llena de luces de colores y se abre un escenario distinto, cuyo objetivo es perseguir la luz que representa aquello que le da más felicidad a la protagonista, con el fin de superar la crisis, mientras un monstruo que encarna al TOC —tanto el pensamiento intrusivo como la conducta compulsiva que provoca— la persigue. Existe un tiempo límite: si se agota o el monstruo la alcanza, el trastorno gana y se muestra una escena que representa esa derrota; si logra escapar, aparece una escena donde el TOC queda atrás, es decir, la protagonista logró no dejarse dominar por él. A lo largo del recorrido en ese escenario alterno aparecen pastillas de escitalopram que, al recogerlas, añaden segundos extra al cronómetro.
+
+## Mecánica principal
+
+Avanzar corriendo mientras se usan objetos y recursos para ganar velocidad hacia la meta o para retrasar al monstruo (el TOC).
+
+## Objetivo del jugador
+
+Superar la crisis provocada por el TOC y cambiar el rumbo de su destino.
+
+## Reglas básicas
+
+- No se puede repetir un nivel ya perdido: perder significa que el TOC ganó esa partida y se muestra la escena correspondiente a esa derrota.
+- El inventario admite solo dos herramientas a la vez, disponibles desde un menú.
+- Las herramientas se adquieren usando el escitalopram que no se gastó en aumentar el tiempo durante el nivel; ese sobrante pasa a una especie de cartera para comprar nuevo equipo, pero ya no sirve para extender el cronómetro en niveles posteriores.
+- El monstruo nunca puede ser derrotado por completo, ya que representa una condición crónica.
+
+## Dinámica
+
+El jugador debe decidir constantemente si usa el escitalopram para ganar más milisegundos de tiempo o si lo guarda para comprar herramientas. Si gasta todo el escitalopram y llega a las etapas finales sin ningún equipo, la dificultad se dispara y el desenlace lleva forzosamente a que el TOC tome el control. Además, el jugador debe reconocer con rapidez hacia dónde moverse.
+
+## Experiencia que se busca generar
+
+¿Qué debería sentir quien juega, y qué mecánica provoca eso? La intención es despertar empatía, haciendo que el jugador experimente la ansiedad y la urgencia que siente una persona con TOC al intentar que sus crisis no interfieran con su vida, así como la culpa de sentir que no lo logró.
+
+## Justificación de la coherencia del diseño
+
+El diseño es coherente porque cada elemento se conecta con el TOC: la mecánica de huir de un monstruo simboliza el intento de ignorar el trastorno; recolectar medicamento que ayuda a avanzar refleja el tratamiento real; y el tiempo limitado representa que, si una persona con TOC dedica toda su energía vital a pelear contra él en lugar de vivir, eso también es una forma de derrota, pues el trastorno terminó siendo el centro de todo.
+
+## Relación entre los elementos formales (MDA)
+
+Las mecánicas —el límite de tiempo, el monstruo indestructible y el consumo de escitalopram— llevan al jugador a ejecutar la dinámica de decidir entre el riesgo inmediato y el beneficio futuro. Esa tensión constante es lo que produce la sensación de ansiedad y el posible remordimiento si se pierde.
+
+## Reflexión final
+
+¿Qué cambiaría primero para mejorar la experiencia del jugador? Consideré permitir que, en algún punto, se pueda eliminar por completo al TOC como una especie de salida simbólica de la enfermedad. Sin embargo, no lo hice porque perdería la relación con la realidad, ya que el trastorno es crónico. Aun así, reconozco que los videojuegos no necesitan copiar la realidad al pie de la letra, así que sería una opción válida. Lo que también me detiene es que un final completamente feliz puede resultar poco honesto; creo que es mejor mantener cierta verdad, para que si alguien que realmente vive con este trastorno juega, no termine sintiéndose peor al no tener la opción de "curarse" del todo. Por todo esto, es algo que aún debo pensar con más calma.
