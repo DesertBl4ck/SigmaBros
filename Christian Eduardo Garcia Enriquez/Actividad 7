@@ -1,0 +1,45 @@
+# Perfil del jugador y estructura del juego
+
+## Perfil del jugador
+
+Nuestro juego está dirigido a jugadores **casuales e intermedios** que disfrutan de una buena historia, el terror y la exploración, pero que no buscan una jugabilidad demasiado difícil.
+
+- **Tipo de jugador:** Interesado en la historia, exploración y suspenso.
+- **Plataforma:** PC.
+- **Sesiones:** Cortas o medianas.
+- **Experiencia:** Casual/intermedia.
+
+La principal motivación del jugador es descubrir la historia del veterano de guerra y lograr escapar de los monstruos que lo atormentan.
+
+Esto se relaciona con **Mikeroguez**, quien explica que las motivaciones del jugador deben influir en las mecánicas y estructura del juego.
+
+## Relación con la estructura del juego
+
+### Loop principal
+
+**Explorar → encontrar pastillas → controlar la insanidad → evitar o cegar monstruos → avanzar → descubrir la historia → escapar.**
+
+La linterna permite cegar temporalmente a los enemigos, mientras que las pastillas ayudan a controlar la insanidad del protagonista.
+
+### Estructura
+
+El juego tendrá una estructura **lineal**, dividida en diferentes zonas. El jugador avanzará mientras descubre más sobre el protagonista y se acerca al escape.
+
+No será un mundo abierto, ya que buscamos mantener el enfoque en la historia y controlar mejor el ritmo del terror.
+
+### Ritmo y dificultad
+
+La dificultad será **moderada**. Al principio, el jugador aprenderá las mecánicas y posteriormente aumentará la presencia de los monstruos y la tensión.
+
+No buscamos que el jugador muera constantemente, sino que se sienta vulnerable y tenga que decidir cuándo utilizar sus recursos.
+
+## Justificación teórica
+
+- **Schell:** El diseño debe partir del tipo de jugador y de la experiencia que queremos generar. Por eso priorizamos historia, tensión y exploración sobre una dificultad elevada.
+- **Dobrowolski:** Las mecánicas deben relacionarse con las características y motivaciones del jugador. Por eso utilizamos mecánicas sencillas como la linterna y las pastillas.
+- **Rogers:** Las mecánicas deben ser claras y fáciles de entender para que el jugador pueda concentrarse en la experiencia. Por eso evitamos sistemas innecesariamente complejos.
+- **Mikeroguez:** Las motivaciones del jugador deben influir en el loop, la dificultad, el ritmo y el diseño de niveles. En nuestro caso, las principales motivaciones son **historia, exploración y tensión**.
+
+## Conclusión
+
+El juego está diseñado para jugadores casuales/intermedios que buscan una experiencia de terror **corta, narrativa y con dificultad moderada**. Las mecánicas están enfocadas en ayudar al jugador a sobrevivir, descubrir la historia y finalmente escapar.
