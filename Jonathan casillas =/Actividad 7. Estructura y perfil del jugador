@@ -1,0 +1,34 @@
+Documento de Diseño: Perfil del Jugador y Estructura ( RPG Narrativo)
+
+Definición del perfil de jugador
+
+Tipo de jugador (Motivaciones y estilo): Orientado a la narrativa, el descubrimiento y la expresión. Basado en las teorías de motivación de jugadores, este usuario busca significado emocional, empatía con los personajes y respuestas únicas del sistema ante sus decisiones éticas. Su estilo de juego es exploratorio y deductivo; prefieren agotar opciones de diálogo antes que ir directamente al combate.
+
+Plataforma objetivo: PC (Steam) y consolas portátiles/híbridas (Nintendo Switch). Estas plataformas favorecen la inmersión personal y los controles precisos necesarios para los minijuegos de esquiva.
+
+Tipo de sesiones: Sesiones medias a largas (1 a 3 horas). El jugador necesita tiempo suficiente para absorber el tono del mundo, leer diálogos y reflexionar sobre sus elecciones sin interrupciones abruptas.
+
+Nivel de experiencia: Intermedio. Aunque las mecánicas de interacción y diálogo son casuales, la destreza requerida para esquivar proyectiles durante los enfrentamientos (mecánica bullet-hell) demanda un nivel intermedio de reflejos y reconocimiento de patrones.
+
+Relación con la estructura del juego
+
+El loop principal de juego
+El bucle central consiste en: Explorar el entorno ➔ Encontrar un NPC / Enemigo ➔ Elegir enfoque (Dialogar/Perdonar o Atacar/Destruir) ➔ Superar el minijuego de combate/esquiva ➔ Afrontar las consecuencias narrativas.
+El perfil del jugador, que valora el descubrimiento, hace que el loop no dependa de subir estadísticas (grindear) de forma obligatoria, sino de experimentar qué ocurre si interactúan de formas no convencionales con los enemigos.
+
+La estructura general (Mundo y Progresión)
+El juego utiliza una estructura de narrativa ramificada en un mundo lineal dividido por zonas temáticas. No es un mundo abierto, sino una serie de "habitaciones" interconectadas.
+
+Progresión: En lugar de progresar numéricamente (subiendo de nivel y vida), la progresión es principalmente narrativa y de conocimiento. El jugador avanza descubriendo la verdad del mundo. Si elige la ruta violenta, la progresión se vuelve mecánica (gana más poder, pero el mundo se vacía).
+
+El ritmo y dificultad
+Ritmo: Sigue un diseño de "picos y valles". Momentos de comedia, exploración tranquila y resolución de acertijos sencillos (valles) se ven interrumpidos por combates emocionales y cinéticos contra jefes (picos).
+
+Dificultad: Es dinámica y dependiente de la moralidad. Si el jugador mata a todos, gana puntos de experiencia y el juego base es "más fácil" numéricamente, pero los jefes finales lo castigan. Si elige una ruta pacífica (no subir de nivel), el juego es mucho más difícil mecánicamente, exigiendo memorizar patrones y tener paciencia, lo cual recompensa su motivación por el reto justo.
+
+3. Justificación teórica de las decisiones
+Jesse Schell (El Arte del Diseño de Juegos): La decisión de basar el loop en acciones pacíficas vs. violentas se apoya en la Lente de la Elección Significativa (Lens of Meaningful Choice). Schell argumenta que para que un juego sea memorable, las elecciones deben tener consecuencias reales. Al permitir que el jugador se salte el combate matando o perdonando, validamos su motivación expresiva.
+
+Scott Rogers (Level Up! The Guide to Great Video Game Design): La estructura del mundo lineal y el ritmo de "picos y valles" se fundamenta en las reglas de Rogers sobre el flujo de los niveles (Pacing). Rogers explica que el jugador no puede estar en constante estrés ni en constante relajación. Los combates tensos tipo bullet-hell deben estar seguidos por pueblos seguros o pasillos con NPCs cómicos para evitar el desgaste cognitivo de nuestras sesiones de 1 a 3 horas.
+
+Dobrowolski (Arquitectura y Diseño de Niveles): La decisión de utilizar un diseño lineal por habitaciones en lugar de un mundo abierto se justifica a través de las teorías de legibilidad del espacio. En un juego donde cada interacción con NPCs es vital, restringir el espacio evita que el jugador se pierda eventos narrativos clave (cuellos de botella estructurales) y permite que el entorno en sí mismo actúe como una herramienta narrativa que va cambiando según las decisiones morales previas del jugador.
