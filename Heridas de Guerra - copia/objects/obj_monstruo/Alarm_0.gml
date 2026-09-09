@@ -1,1 +1,0 @@
-room_restart(); // Reinicia la sala tras la pausa dramática
