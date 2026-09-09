@@ -1,0 +1,55 @@
+Propuesta narrativa y diseño jugable
+
+Propuesta narrativa 
+
+Tema: Terror psicológico enfocado en el trauma (TEPT) y la culpa.
+
+Mundo: Un hospital militar abandonado que cambia su arquitectura dinámicamente, fusionando pasillos médicos con trincheras de guerra llenas de barro.
+
+Conflicto: El veterano es acechado por "Los Ecos" (criaturas ciegas que representan a su escuadrón caído) mientras lucha por controlar su propia respiración y ataques de pánico.
+
+Meta del jugador: Llegar a la torre de radio en la azotea para pedir la extracción y escapar.
+
+Obstáculo principal: Los enemigos reaccionan exclusivamente al sonido, y el estrés del protagonista genera ruido involuntario (hiperventilación, taquicardia).
+
+La narrativa no se cuenta con textos ni cinemáticas. El trauma del personaje es el núcleo del gameplay: el jugador debe gestionar físicamente el estado de pánico del veterano para poder avanzar.
+
+
+Traducción a espacio 
+
+¿Dónde ocurre?
+En pasillos angostos, ruinas que bloquean la línea de visión y zonas llenas de escombros. El espacio está diseñado como un laberinto acústico donde el sonido rebota.
+
+3 verbos principales
+Ocultarse (aprovechar coberturas y sombras).
+
+Contener (minijuego de ritmo para controlar la respiración del personaje).
+
+Distraer (lanzar objetos del entorno para desviar a los enemigos).
+
+3 obstáculos jugables
+Los Ecos (Enemigos): Son completamente ciegos pero tienen un oído letal. Patrullan y persiguen cualquier alteración acústica.
+
+Ataques de Pánico: Si el jugador pasa mucho tiempo cerca de un enemigo o en la oscuridad total, el medidor de estrés sube. Si llega al máximo, el personaje tose o respira fuerte, atrayendo a los monstruos.
+
+Trampas acústicas: Suelo con vidrios rotos, charcos de sangre o alambre de púas que, si se pisan sin cuidado, generan ruido.
+
+¿Cómo escala?
+Inicio: El jugador aprende a moverse agachado y esquivar trampas de sonido (vidrios) en un entorno sin enemigos. Aprende la mecánica de "Contener la respiración".
+
+Desarrollo: Aparece el primer Eco. Se introduce la mecánica de lanzar objetos (casquillos, piedras) para crear distracciones.
+
+Tensión: El entorno cambia a las trincheras. Hay más trampas, barro que ralentiza el movimiento y múltiples Ecos. El estrés sube mucho más rápido.
+
+Final: La huida hacia la torre. Suena una alarma ensordecedora. El sigilo ya no sirve; el jugador debe correr por su vida esquivando obstáculos en un entorno que colapsa.
+
+Coherencia 
+
+Alineación con el perfil
+Dirigido a jugadores de stealth horror (terror y sigilo) que disfrutan de la tensión atmosférica y la planificación, en lugar del combate directo o la acción rápida.
+
+Ritmo adecuado
+Un diseño de "tensión y alivio". Largos tramos de silencio sofocante y movimientos calculados, interrumpidos por momentos de pánico extremo donde hay que reubicarse rápidamente. Existen "habitaciones seguras" (zonas iluminadas y aisladas del ruido) para bajar el nivel de estrés a cero.
+
+Progresión consistente
+En lugar de dar armas o habilidades nuevas, la dificultad aumenta haciendo que el entorno sea más hostil. Las mecánicas principales (ocultarse, contener respiración, distraer) se mantienen exactamente iguales de principio a fin, pero el margen de error del jugador se reduce drásticamente conforme se acerca al objetivo. No hay sistemas de crafteo ni inventario que distraigan de la experiencia central de supervivencia acústica.
