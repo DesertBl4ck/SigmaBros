@@ -1,7 +1,15 @@
 Actividad 7. Estructura y perfil del jugador
 - Describe el jugador principal de tu juego considerando:
 - Tipo de jugador (motivaciones y estilo de juego).
-Mi tipo de jugador al que iría diseñado mi trabajo,
+Mi tipo de jugador al que iría diseñado mi trabajo, es gente de meidana experiencia,alguien no tan inexperto como para saber las bases básicas de cualquier videojuego o saber agarrar un control, pero tampoco alguien que espere una experiencia totalmente frenética
+y desafiante. El estilo de juego sería rítmico, no necesariamente iguiento un ritmo de una música, pero los enemigos enemigos seguirían patrones fáciles de reconocer el cual ayudarán al jugador a reconocer si es necesario esquivar o atacar
 - Plataforma objetivo.
 - Tipo de sesiones (cortas / largas).
 - Nivel de experiencia (casual / intermedio / avanzado).
+
+Relación con la estructura del juego
+- Explica cómo ese perfil influye en:
+- El loop principal de juego.
+- La estructura general (niveles, mundo abierto, progresión, etc.).
+- El ritmo y dificultad.
+
