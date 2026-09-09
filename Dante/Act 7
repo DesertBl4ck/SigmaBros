@@ -22,6 +22,19 @@ Apuntar a un jugador de nivel intermedio que escala a avanzado evita tanto el ab
 Relación con la estructura del juego
 - Explica cómo ese perfil influye en:
 - El loop principal de juego.
+El core loop representa la cadena repetitiva de acciones fundamentales que el jugador realiza a lo largo de toda la experiencia. 
+Diseñar este bucle en función de un jugador intermedio/mid-core, motivado por la variedad de enemigos, el combate rítmico y las sesiones cortas, exige estructurarlo en dos niveles: un Micro-Loop (dentro del combate) y un Macro-Loop (estructura de sesión y progreso).
+
 - La estructura general (niveles, mundo abierto, progresión, etc.).
-- El ritmo y dificultad.
+La estructura del mundo será por zonas separadas, se empezará en un "gremio" en el cual se podrás elegir misiones y seleccionar el tipo de enemigo que querramos luchar contra, estas misiones nos llevarán a un mapa de por lo menos 6 areas las cuales el jugador deberá localizar al enemig principal.
+Schell señala que estructurar un mundo a través de un nodo central (Hub) conectado a áreas independientes (Spokes) es uno de los métodos más eficaces para mantener la orientación espacial del jugador.
+
+- El ritmo y dificultad. 
+En lugar de incrementar artificialmente la salud o el daño de los enemigos, la dificultad aumenta mediante la complejidad de los patrones de ataque:
+
+Nivel Inicial (Intermedio): Un solo enemigo en pantalla con patrones simples y lecturas visuales/sonoras muy explícitas.
+
+Nivel Avanzado: Combinación de dos tipos de enemigos con ritmos desincronizados, ventanas de esquiva más estrechas y variaciones en el tiempo de ejecución (delays en los ataques para engañar los reflejos).
+
+Techo de Habilidad Elevado / Suelo de Frustración Bajo: El jugador de nivel intermedio puede completar las misiones leyendo patrones básicos; el jugador avanzado es premiado con combos rítmicos perfectos (parries, esquivas en el último cuadro) que aceleran el tiempo de resolución.
 
