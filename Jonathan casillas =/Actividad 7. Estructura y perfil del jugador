@@ -26,7 +26,8 @@ Ritmo: Sigue un diseño de "picos y valles". Momentos de comedia, exploración t
 
 Dificultad: Es dinámica y dependiente de la moralidad. Si el jugador mata a todos, gana puntos de experiencia y el juego base es "más fácil" numéricamente, pero los jefes finales lo castigan. Si elige una ruta pacífica (no subir de nivel), el juego es mucho más difícil mecánicamente, exigiendo memorizar patrones y tener paciencia, lo cual recompensa su motivación por el reto justo.
 
-3. Justificación teórica de las decisiones
+Justificación teórica de las decisiones
+
 Jesse Schell (El Arte del Diseño de Juegos): La decisión de basar el loop en acciones pacíficas vs. violentas se apoya en la Lente de la Elección Significativa (Lens of Meaningful Choice). Schell argumenta que para que un juego sea memorable, las elecciones deben tener consecuencias reales. Al permitir que el jugador se salte el combate matando o perdonando, validamos su motivación expresiva.
 
 Scott Rogers (Level Up! The Guide to Great Video Game Design): La estructura del mundo lineal y el ritmo de "picos y valles" se fundamenta en las reglas de Rogers sobre el flujo de los niveles (Pacing). Rogers explica que el jugador no puede estar en constante estrés ni en constante relajación. Los combates tensos tipo bullet-hell deben estar seguidos por pueblos seguros o pasillos con NPCs cómicos para evitar el desgaste cognitivo de nuestras sesiones de 1 a 3 horas.
