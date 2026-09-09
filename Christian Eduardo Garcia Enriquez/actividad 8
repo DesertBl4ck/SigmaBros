@@ -1,0 +1,62 @@
+# Propuesta narrativa y diseño jugable
+
+## 1. Propuesta narrativa
+
+- **Tema:** Terror psicológico y supervivencia.
+- **Mundo:** Un entorno oscuro y peligroso donde un veterano de guerra es atormentado por monstruos.
+- **Conflicto:** El protagonista lucha contra los monstruos y contra sus propios niveles de insanidad.
+- **Meta del jugador:** Escapar del lugar y sobrevivir.
+- **Obstáculo principal:** Los monstruos que persiguen al protagonista y su creciente insanidad.
+
+La historia y el gameplay están conectados. La insanidad no solo es parte de la historia, sino que afecta directamente la forma en que el jugador sobrevive. Esto sigue la idea de que la historia debe funcionar junto con las mecánicas y no como contenido separado.
+
+## 2. Traducción a espacio
+
+### ¿Dónde ocurre?
+
+El juego ocurre principalmente en un **entorno cerrado y oscuro**, diseñado para generar sensación de aislamiento y peligro.
+
+### 3 verbos principales
+
+- **Explorar**
+- **Escapar**
+- **Sobrevivir**
+
+### 3 obstáculos
+
+1. **Monstruos:** Persiguen al jugador y bloquean su avance.
+2. **Insanidad:** El jugador debe controlar los niveles de insanidad utilizando pastillas.
+3. **Oscuridad:** Reduce la visibilidad y obliga al jugador a utilizar la linterna.
+
+### ¿Cómo escala?
+
+La dificultad aumenta progresivamente:
+
+1. **Inicio:** El jugador aprende a explorar y utilizar la linterna.
+2. **Desarrollo:** Aparecen los monstruos y se introduce el uso de las pastillas.
+3. **Tensión:** Los enemigos aparecen con mayor frecuencia y los recursos son más importantes.
+4. **Final:** El jugador enfrenta la situación de mayor riesgo y debe utilizar todo lo aprendido para escapar.
+
+La progresión sigue la estructura propuesta por Rogers, donde el conflicto aumenta mediante intentos, fracasos, incremento del riesgo y un obstáculo final antes de la resolución.
+
+## 3. Coherencia
+
+### Alineación con el perfil
+
+El juego está pensado para jugadores casuales/intermedios que buscan principalmente **historia, terror y exploración**. Por eso las mecánicas son sencillas y la dificultad no es excesiva.
+
+### Ritmo adecuado
+
+El juego será **corto y de ritmo progresivo**. Habrá momentos de exploración y momentos de tensión, evitando mantener al jugador constantemente en peligro.
+
+### Progresión consistente
+
+Cada nueva zona aumenta la tensión y utiliza las mecánicas aprendidas anteriormente. La linterna, las pastillas y la evasión de los monstruos son suficientes para mantener el gameplay sin agregar sistemas innecesarios.
+
+## Objetivo de diseño
+
+La narrativa no busca agregar grandes cantidades de lore. Cada elemento debe tener una función jugable.
+
+**Historia → Conflicto → Mecánica → Obstáculo → Progresión → Escape**
+
+El objetivo es que el jugador sienta que está sobreviviendo a la experiencia del protagonista a través de sus propias acciones.
