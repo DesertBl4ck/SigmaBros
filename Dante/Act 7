@@ -2,10 +2,22 @@ Actividad 7. Estructura y perfil del jugador
 - Describe el jugador principal de tu juego considerando:
 - Tipo de jugador (motivaciones y estilo de juego).
 Mi tipo de jugador al que iría diseñado mi trabajo, es gente de meidana experiencia,alguien no tan inexperto como para saber las bases básicas de cualquier videojuego o saber agarrar un control, pero tampoco alguien que espere una experiencia totalmente frenética
-y desafiante. El estilo de juego sería rítmico, no necesariamente iguiento un ritmo de una música, pero los enemigos enemigos seguirían patrones fáciles de reconocer el cual ayudarán al jugador a reconocer si es necesario esquivar o atacar
+y desafiante. El estilo de juego sería rítmico, no necesariamente iguiento un ritmo de una música, pero los enemigos enemigos seguirían patrones fáciles de reconocer el cual ayudarán al jugador a reconocer si es necesario esquivar o atacar, loque motivaría al jugador es hacer sentir que cada
+combate o enfrentamiento se sienta diferente por cada tipo de enemigo. 
+Schell destaca que el aprendizaje se produce cuando el jugador construye un "modelo mental" del juego. Al utilizar patrones enemigos reconocibles y rítmicos, se facilita la creación de estos modelos mentales, permitiendo que la curva de aprendizaje sea intuitiva y gratificante.
+
 - Plataforma objetivo.
+Pirncipales consolas actuales (Xbox, PS5, Nintendo Switch 1 y 2, PC y en posibilidad de android y IOS
+
 - Tipo de sesiones (cortas / largas).
+El tipo de sesión que yo buscaría serían sesiones cortas, debido a que el combate podría llegar a ser quizas agotador, no busco agobiar al jugador con formas de guardados de progreso muy alejadas entre si, por lo que sería posible guardar progreso en cualquier momento no combatible
+y poder dejarlo para después.
+La decisión de ofrecer sesiones cortas y guardado libre responde a lo que Schell denomina el respeto por la curva de interés y la energía del jugador. Dividir la experiencia en bloques breves mantiene la atención alta durante el combate sin sobrecargar la capacidad de retención.
+
 - Nivel de experiencia (casual / intermedio / avanzado).
+El nivel que buscaría en un inicio sería intermedio, pero escalando a anvanzado, el combate al requerir reflejos y atención incluso en niveles básicos, me daría la posibilidad de generar un techo de habilidad más extenso. 
+Schell plantea que para mantener la atención del jugador se debe lograr un equilibrio constante entre el desafío presentado y la habilidad del jugador (Teoría del Flujo de Csikszentmihalyi). 
+Apuntar a un jugador de nivel intermedio que escala a avanzado evita tanto el aburrimiento (provocado por mecánicas demasiado triviales) como la ansiedad (provocada por picos injustificados de dificultad).
 
 Relación con la estructura del juego
 - Explica cómo ese perfil influye en:
