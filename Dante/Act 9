@@ -1,1 +1,71 @@
-Concepto de UI (HUD, canales de información y feedback)
+1. Concepto de UI (HUD, canales de información y feedback)
+El diseño se decidió por una interfaz sencilla. Una UI simple para contrastar con el mapa y no hacer tanto ruido visual y no perder al usuario, usando colores negros para resaltar los menús
+HUD:
+
+Sin barras fijas en pantalla: Se evitan meramente para centrar más la atención en lo que sucede en el juego llevando la atención a los personajes y el combate contra los enemigos.
+
+Canal Visual:
+
+Estado normal: sin contornoss.
+
+Canal Auditivo:
+
+Musica: sonidos ambientales sencillos con leves notas musicales para ambientar al usuario al navegar por los mapas, y temas mas desarrollados para los combates.
+
+
+HUD en Diálogos :
+
+Caja de Texto: Cuadros en la parte inferior con el nombre del personaje hablando y un color representativo.
+
+
+
+2. Loop Principal de Interacción
+
+Comienzo de un combate: al estar en el hub o lobby, se escoje una misión que lleva un nivel para comenzar la exploración y combate, empezando el loop.
+
+Finalizar: al acabar una cacería, obtienes tus recompensas ya sean objetos o armas para ayudarte en el siguiente combate a elegir.
+
+Decisión: El jugador decide a que enfrentarse basado a lo que el considere que esté preparado para luchar.
+
+Repetición: se va mejorando el equipo con cada combate lo que lleva a enemigos mas difciles a combatir y mejores recompensas
+
+
+
+3. Dinámicas Asociadas y Regulación por la UI
+
+Dinámica:		
+Gestión de armas y objetos: Decidir si usar objetos curativos, de estado o seleccionar el tipo de arma y rmadura a usar, así como a lo que enfrentaremos.	
+Derrota: si una cacería es fallida, pierdes los objetos consumibles llevados a la misión más no el equipamiento (sigue en decisión si hacer que este también se pierda).
+Navegación explorativa: ir reconociendo las áreas donde el enemigo estará y seguir su rastro	
+
+Manifestación en la UI:
+Contador de pociones, medikits, objetos como trampas, tranquilizantes o aturdidores	
+Señales del mosntruo que indiquen su agotamiento o debilidad durante el combate (heridas, saliva, movimientos lentos).	
+
+Regulación y Control de la UI:
+La UI muestra el combate en tiempo real, forzando al jugador a actuar al momento ya sea, esquivando, parry, atacando o usar un objeto.
+La UI comunica visualmente el estado tanto del jugador como del enemigo, y si hay efectos alterados en el enemigo o al jugador.
+
+
+4. Principal Riesgo del Diseño y Validación con Prototipo:
+
+Al ser un juego dedicado a la jugabilidad y el combate, sería necesario una amplia variedad de enemigos para mantener entretenido al jugador.
+
+Algo que podria considerarse para "maquillar" esto sería hacer versiones con patrones mas fuertes y freneticos de enemigos pasados, pero podria no parecerle ineterante al jugador ver los mismos enemigos pero mas fuertes.
+
+Otro riesgo que consideré, fue no saber si dar las recompensas directamente por los enemigos o que el jugador tenga que crearlas en base a las partes de los monstruos, pero crear la fabricación de todo eso conllevarua mas tiempo sumando a codificar cada objeto requerido
+
+
+
+5. Trade-off Explícito
+Decisión: Sacrificar la variedad de armas y enemigos por pulir las mecánicas de combate y que se sienta fluido.
+
+Lo que perdemos: variedad de enemigos con ataques únicos y equipamiento posible por parte de ellos
+
+Lo que ganamos:
+
+Centrarse en que el combate sea entretenido, divertido, fluido y justo
+
+6. Justificación de Decisiones
+Lo que busco en el juego es garantizar que el jugador se inmerzca en el juego por ser divertido, que lo ponga a prueba y no sienta una dificultad artificial con golpes que maten de un golpe y esponjas de daño, sino que 
+recompense el esfuerzo y a habilidad
