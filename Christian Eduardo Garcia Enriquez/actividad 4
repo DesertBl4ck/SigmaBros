@@ -1,0 +1,54 @@
+# Análisis de los modelos GAP y PLAY
+
+## 1. Ideas previas: ¿qué hace bueno a un videojuego?
+
+Antes de leer los modelos, pensábamos que un buen videojuego dependía sobre todo de tres cosas: **gráficos atractivos, una historia interesante y mecánicas divertidas**. Considerábamos que si un juego se veía bien y tenía buena jugabilidad, ya era bueno.
+
+En la discusión de equipo coincidimos en algunas ideas y surgieron otras que no habíamos considerado:
+
+- Que un juego sea **desafiante sin frustrar**: que nos dé ganas de intentarlo otra vez y no soltar el control.
+- Que **se sienta justo**: cuando perdemos, entendemos por qué.
+- Que tenga **libertad** o distintas formas de jugar.
+- Que **enganche desde el inicio**. Varios coincidimos en que si los primeros minutos aburren, muchas veces abandonamos el juego.
+
+## 2. Qué son los modelos
+
+**PLAY (Principles of Game Playability).** Es una lista de heurísticas para evaluar y diseñar juegos, derivada de HEP. Se validó con 54 jugadores que compararon juegos bien y mal calificados en Metacritic (80 o más contra 50 o menos) sobre 116 principios posibles. 48 diferenciaron a los buenos de los malos. Se agrupan en jugabilidad (juego duradero, desafío y ritmo, metas, control), emoción e inmersión (humor, "coolness") y usabilidad y mecánicas (controles, feedback, pantalla, prevención de errores).
+
+**GAP (Game Approachability Principles).** Es un conjunto de 11 principios enfocado en el *primer contacto*: tutorial y primeros niveles, sobre todo para jugadores casuales o poco experimentados. Se apoya en teorías del aprendizaje (Bandura, Bruer, Gee). Incluye práctica, demostración, autoeficacia, andamiaje (*scaffolding*), sandbox, información a demanda y en el momento justo, y dominio propio (*self mastery*).
+
+## 3. Conceptos nuevos que aportan
+
+- **Aprender también es diseño de experiencia.** GAP trata el tutorial como parte central del diseño y no como algo que se agrega al final.
+- **Autoeficacia.** El jugador debe *creer* que puede lograrlo. Si no se siente capaz, abandona aunque el juego sea bueno.
+- **Andamiaje (scaffolding).** La ayuda empieza siendo general y se vuelve más específica solo si el jugador la necesita.
+- **Sandbox sin consecuencias.** Practicar habilidades nuevas sin riesgo de perder antes de usarlas en serio.
+- **Información a demanda y a tiempo.** Las instrucciones deben poder repetirse o consultarse. Los autores observaron que un texto que desaparece deja al jugador perdido.
+- **Dificultad deseable.** PLAY encontró que cierta dificultad es parte de la experiencia, pero debe premiar la estrategia y no la memoria mecánica ("fácil de aprender, difícil de dominar").
+- **El ritmo de aprendizaje importa más que la habilidad en sí.** Lo que separa un buen juego de uno malo es cómo se dosifican las habilidades nuevas.
+- **Los principios son guías, no reglas.** Los propios autores dicen que están hechos "para romperse" con criterio.
+
+## 4. Posibles aplicaciones al diseño
+
+- Usar GAP como lista de verificación al **diseñar** el tutorial desde el concepto, cuando cambiar cosas es barato.
+- Usar PLAY y GAP como **evaluación heurística** entre rondas de pruebas con jugadores.
+- Combinar ambos métodos: en el estudio, la evaluación heurística encontró más problemas de aprendizaje (43 contra 22) y las pruebas con usuarios encontraron más de jugabilidad (185 contra 27 según el texto), así que se complementan.
+- Diseñar los primeros 10 a 20 minutos para que sean divertidos y exitosos, ocultando el aprendizaje dentro del juego.
+
+## 5. Mi mirada crítica
+
+- Los principios de PLAY salen de juegos *ya* bien calificados. ¿Eso mide calidad o popularidad?
+- La muestra de PLAY (54 personas, reclutadas en un evento de videojuegos) puede estar sesgada hacia jugadores experimentados.
+- Los datos de GAP tienen una inconsistencia: se dice que hubo 90 problemas (43 de accesibilidad y 27 de jugabilidad), pero 43 + 27 no suman 90.
+- Los autores reconocen que faltan estudios por género y plataforma (multijugador, móvil, VR) y para juegos donde la diversión no es el objetivo.
+
+## 6. Conclusiones personales
+
+Estos modelos cambiaron nuestra idea de lo que hace bueno a un videojuego: **la calidad no está solo en el juego terminado, sino en cómo acompaña al jugador desde el primer minuto.** Antes veíamos el tutorial como un trámite; ahora lo vemos como una de las partes más importantes del diseño, porque ahí se decide si alguien se queda o abandona.
+El principio que nos pareció más útil es la **autoeficacia**. Nos hizo notar que un jugador puede dejar un juego excelente simplemente porque no se siente capaz de avanzar. Diseñar para que la persona se sienta competente, con práctica, retroalimentación y ayuda gradual, es una decisión de diseño y no solo un detalle de usabilidad.
+También nos quedamos con la idea de que **los principios son guías y no reglas**. Sirven como lista de verificación para pensar mejor, pero hay que validarlos con jugadores reales, porque el comportamiento humano no se puede predecir del todo.
+Como jugadores, vemos estos principios en juegos que enseñan mientras se juega, con zonas seguras para practicar antes del primer reto real (por ejemplo, los primeros niveles de muchos juegos de Mario). Y vemos su ausencia cuando un juego lanza un texto de instrucciones una sola vez y no permite consultarlo después. Nuestra meta como futuros diseñadores es aplicar GAP desde el concepto, no como parche al final.
+
+
+
+
