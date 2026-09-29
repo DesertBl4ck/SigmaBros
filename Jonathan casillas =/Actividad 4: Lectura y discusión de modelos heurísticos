@@ -1,0 +1,31 @@
+-Lo que pensaba antes vs. Lo que aportan los modelos
+Antes de ver estos temas, casi siempre pensamos que un juego es "bueno" si tiene gráficos increíbles, una historia épica o si es súper difícil y complejo.
+
+Los modelos PLAY y GAP demuestran que la diversión no ocurre por suerte. Un juego realmente funciona cuando la interfaz y los controles no estorban, y cuando la curva de aprendizaje está bien diseñada para que el jugador disfrute el reto sin frustrarse por torpezas del sistema.
+
+-Ideas y conceptos clave que me llevo
+A. Modelo PLAY (Jugabilidad general)
+Dificultad buena vs. Dificultad mala: El reto táctico o de habilidad es genial (Strategy & Challenge), pero la dificultad causada por controles torpes o menús confusos arruina la experiencia.
+
+Los primeros 10-20 minutos: Tienen que dar retroalimentación clara y positiva de inmediato para engachar al jugador.
+
+Ritmo y consistencia: El mundo debe responder a lo que hace el jugador y el juego no debe volverse repetitivo ni castigar en exceso por el mismo error.
+
+-Modelo GAP (Accesibilidad y Onboarding)
+Autoeficacia (Self-Efficacy): Lograr que el jugador crea que sí puede superar el reto. Si se siente incapaz en el tutorial, abandona el juego.
+
+Sandbox sin consecuencias: Dar espacios seguros para practicar mecánicas o botones sin miedo a perder vidas o progreso.
+
+Información Justo a Tiempo: En lugar de soltar textos larguísimos al inicio, la información se da exactamente cuando se necesita.
+
+Andamiaje (Scaffolding): Dar pistas generales si el jugador se atora y volverse más específico solo si sigue confundido.
+
+-Evaluaciones con Heurísticas (Desurvire & Wixon)
+Evaluar usando estas listas (heurísticas) es mucho mejor que confiar solo en la "intuición". No solo ayuda a encontrar errores y proponer soluciones, sino que también sirve para identificar qué cosas sí están funcionando bien para mejorarlas aún más.
+
+-¿Cómo aplicar esto al diseñar un juego?
+Diseñar el tutorial desde el principio: Usar GAP como una lista de verificación mientras hacemos los primeros prototipos para no dejar el aprendizaje para el final.
+
+Enseñar jugando: Reemplazar las ventanas flotantes con texto (pop-ups) por escenarios sandbox o demostraciones sutiles dentro del mundo.
+
+Combinar pruebas: Evaluar el juego nosotros mismos usando las listas de PLAY y GAP para corregir cosas básicas, y luego probar con jugadores reales para validar si se están divirtiendo.
