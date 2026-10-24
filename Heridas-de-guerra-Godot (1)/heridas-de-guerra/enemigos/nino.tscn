@@ -1,0 +1,88 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://enemigos/enemigo.gd" id="1"]
+[ext_resource type="Texture2D" path="res://recursos/spr_nino_caminata/caminata.png" id="Hoja"]
+
+[sub_resource type="AtlasTexture" id="abajo_0"]
+atlas = ExtResource("Hoja")
+region = Rect2(0, 0, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="abajo_1"]
+atlas = ExtResource("Hoja")
+region = Rect2(362, 0, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="abajo_2"]
+atlas = ExtResource("Hoja")
+region = Rect2(724, 0, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="abajo_3"]
+atlas = ExtResource("Hoja")
+region = Rect2(1086, 0, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="arriba_0"]
+atlas = ExtResource("Hoja")
+region = Rect2(0, 362, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="arriba_1"]
+atlas = ExtResource("Hoja")
+region = Rect2(362, 362, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="arriba_2"]
+atlas = ExtResource("Hoja")
+region = Rect2(724, 362, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="arriba_3"]
+atlas = ExtResource("Hoja")
+region = Rect2(1086, 362, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="lado_0"]
+atlas = ExtResource("Hoja")
+region = Rect2(0, 724, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="lado_1"]
+atlas = ExtResource("Hoja")
+region = Rect2(362, 724, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="lado_2"]
+atlas = ExtResource("Hoja")
+region = Rect2(724, 724, 362, 362)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="lado_3"]
+atlas = ExtResource("Hoja")
+region = Rect2(1086, 724, 362, 362)
+filter_clip = true
+
+[sub_resource type="SpriteFrames" id="Animaciones"]
+animations = [{"frames": [{"duration": 1.0, "texture": SubResource("abajo_0")}, {"duration": 1.0, "texture": SubResource("abajo_1")}, {"duration": 1.0, "texture": SubResource("abajo_2")}, {"duration": 1.0, "texture": SubResource("abajo_3")}], "loop": true, "name": &"abajo", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("arriba_0")}, {"duration": 1.0, "texture": SubResource("arriba_1")}, {"duration": 1.0, "texture": SubResource("arriba_2")}, {"duration": 1.0, "texture": SubResource("arriba_3")}], "loop": true, "name": &"arriba", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("lado_0")}, {"duration": 1.0, "texture": SubResource("lado_1")}, {"duration": 1.0, "texture": SubResource("lado_2")}, {"duration": 1.0, "texture": SubResource("lado_3")}], "loop": true, "name": &"lado", "speed": 8.0}]
+[sub_resource type="RectangleShape2D" id="Cuerpo"]
+resource_local_to_scene = true
+size = Vector2(24, 20)
+[node name="Enemigo" type="CharacterBody2D"]
+motion_mode = 1
+collision_layer = 4
+collision_mask = 7
+script = ExtResource("1")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -32)
+scale = Vector2(0.17679558, 0.17679558)
+texture_filter = 1
+sprite_frames = SubResource("Animaciones")
+animation = &"abajo"
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -10)
+shape = SubResource("Cuerpo")
+[node name="Vision" type="RayCast2D" parent="."]
+position = Vector2(0, -10)
+collision_mask = 1

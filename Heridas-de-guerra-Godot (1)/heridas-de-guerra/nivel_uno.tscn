@@ -1,0 +1,90 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://nivel_uno/nivel_uno.gd" id="1_nivel"]
+[ext_resource type="Script" path="res://nivel_uno/visual_nivel_uno.gd" id="2_visual"]
+[ext_resource type="Script" path="res://nivel_uno/mapa_nivel_uno.gd" id="3_mapa"]
+[ext_resource type="PackedScene" path="res://jugador.tscn" id="4_jugador"]
+[ext_resource type="PackedScene" path="res://nivel_uno/npc_normal.tscn" id="5_npc"]
+[ext_resource type="PackedScene" path="res://enemigos/nino.tscn" id="6_nino"]
+[ext_resource type="PackedScene" path="res://nivel_uno/interfaz_nivel_uno.tscn" id="7_ui"]
+[ext_resource type="Texture2D" path="res://recursos/spr_luz_cono/00.png" id="8_cono"]
+
+[node name="NivelUno" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_nivel")
+
+[node name="Visual" type="Node2D" parent="."]
+script = ExtResource("2_visual")
+
+[node name="Mapa" type="Node2D" parent="."]
+y_sort_enabled = true
+script = ExtResource("3_mapa")
+
+[node name="Jugador" parent="." instance=ExtResource("4_jugador")]
+position = Vector2(368, 650)
+
+[node name="Psicologo" parent="." instance=ExtResource("5_npc")]
+position = Vector2(496, 348)
+es_psicologo = true
+
+[node name="PacienteSuperior1" parent="." instance=ExtResource("5_npc")]
+position = Vector2(1248, 280)
+ruta = PackedVector2Array(1248, 280, 1160, 280, 1160, 350, 1248, 350)
+desfase = 0.2
+
+[node name="PacienteSuperior2" parent="." instance=ExtResource("5_npc")]
+position = Vector2(1792, 250)
+ruta = PackedVector2Array(1792, 250, 1700, 250, 1700, 345, 1792, 345)
+desfase = 0.8
+
+[node name="PacienteSuperior3" parent="." instance=ExtResource("5_npc")]
+position = Vector2(2336, 300)
+ruta = PackedVector2Array(2336, 300, 2240, 300, 2240, 220, 2336, 220)
+desfase = 1.4
+
+[node name="PacienteSuperior4" parent="." instance=ExtResource("5_npc")]
+position = Vector2(2880, 260)
+ruta = PackedVector2Array(2880, 260, 2790, 260, 2790, 346, 2880, 346)
+desfase = 2.0
+
+[node name="PacienteInferior1" parent="." instance=ExtResource("5_npc")]
+position = Vector2(1248, 860)
+ruta = PackedVector2Array(1248, 860, 1160, 860, 1160, 956, 1248, 956)
+desfase = 0.5
+
+[node name="PacienteInferior2" parent="." instance=ExtResource("5_npc")]
+position = Vector2(1792, 900)
+ruta = PackedVector2Array(1792, 900, 1700, 900, 1700, 820, 1792, 820)
+desfase = 1.1
+
+[node name="PacienteInferior3" parent="." instance=ExtResource("5_npc")]
+position = Vector2(2336, 852)
+ruta = PackedVector2Array(2336, 852, 2240, 852, 2240, 960, 2336, 960)
+desfase = 1.7
+
+[node name="PacienteInferior4" parent="." instance=ExtResource("5_npc")]
+position = Vector2(2880, 920)
+ruta = PackedVector2Array(2880, 920, 2790, 920, 2790, 824, 2880, 824)
+desfase = 2.3
+
+[node name="Nino" parent="." instance=ExtResource("6_nino")]
+visible = false
+position = Vector2(3608, 484)
+
+[node name="Oscuridad" type="CanvasModulate" parent="."]
+color = Color(1, 1, 1, 1)
+
+[node name="LuzLuna" type="PointLight2D" parent="."]
+visible = false
+position = Vector2(3618, 350)
+rotation = 1.5707963
+scale = Vector2(0.7, 1.65)
+texture = ExtResource("8_cono")
+offset = Vector2(190, 0)
+texture_scale = 1.7
+color = Color(0.67, 0.76, 1, 1)
+energy = 1.15
+shadow_enabled = true
+shadow_filter = 1
+
+[node name="InterfazNivelUno" parent="." instance=ExtResource("7_ui")]

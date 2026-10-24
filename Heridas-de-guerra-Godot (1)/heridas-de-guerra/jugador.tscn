@@ -14,6 +14,12 @@
 [ext_resource type="Texture2D" uid="uid://clhhlwqwtde2b" path="res://recursos/spr_player_side_strip4/02.png" id="12_janri"]
 [ext_resource type="Texture2D" uid="uid://b7crt1ccpte4a" path="res://recursos/spr_player_side_strip4/03.png" id="13_3ook8"]
 
+[ext_resource type="Script" path="res://sistemas/inventario.gd" id="14_inv"]
+[ext_resource type="Texture2D" path="res://recursos/spr_luz_cono/00.png" id="15_luz"]
+[ext_resource type="Texture2D" path="res://recursos/spr_luz_circulo/00.png" id="16_halo"]
+
+[ext_resource type="Texture2D" path="res://recursos/spr_linterna/00.png" id="17_linterna"]
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_shl25"]
 animations = [{
 "frames": [{
@@ -69,11 +75,14 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s1ohp"]
-size = Vector2(24, 56)
+resource_local_to_scene = true
+size = Vector2(24, 20)
 
 [node name="Jugador" type="CharacterBody2D" unique_id=1816142566]
 script = ExtResource("1_bpxwk")
-velocidad = null
+motion_mode = 1
+collision_layer = 2
+collision_mask = 5
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1862922706]
 position = Vector2(0, -32)
@@ -81,5 +90,58 @@ sprite_frames = SubResource("SpriteFrames_shl25")
 animation = &"abajo"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1669189401]
-position = Vector2(0, -32)
+position = Vector2(0, -10)
 shape = SubResource("RectangleShape2D_s1ohp")
+
+[node name="Inventario" type="Node" parent="."]
+script = ExtResource("14_inv")
+
+[node name="Mano" type="Node2D" parent="."]
+position = Vector2(14, -20)
+rotation = 1.5707963
+z_index = 1
+
+[node name="SpriteLinterna" type="Sprite2D" parent="Mano"]
+scale = Vector2(0.065, 0.065)
+offset = Vector2(60, 0)
+texture = ExtResource("17_linterna")
+
+[node name="Linterna" type="PointLight2D" parent="Mano"]
+position = Vector2(14, 0)
+scale = Vector2(1, 2.35)
+texture = ExtResource("15_luz")
+offset = Vector2(230, 0)
+texture_scale = 1.8
+energy = 1.55
+shadow_enabled = true
+shadow_filter = 1
+
+[node name="Halo" type="PointLight2D" parent="."]
+visible = false
+position = Vector2(0, -18)
+texture = ExtResource("16_halo")
+texture_scale = 3.2
+energy = 1.35
+shadow_enabled = true
+shadow_filter = 1
+
+[node name="RayoLinterna" type="RayCast2D" parent="Mano"]
+position = Vector2(14, 0)
+target_position = Vector2(440, 0)
+collision_mask = 1
+
+[node name="Camara" type="Camera2D" parent="."]
+position = Vector2(0, -20)
+position_smoothing_enabled = true
+position_smoothing_speed = 6.0
+limit_left = 0
+limit_top = 0
+limit_right = 3072
+limit_bottom = 2048
+limit_smoothed = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 0.08
+drag_top_margin = 0.08
+drag_right_margin = 0.08
+drag_bottom_margin = 0.08

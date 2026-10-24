@@ -1,0 +1,36 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://enemigos/enemigo.gd" id="1"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_down_strip4/00.png" id="abajo_0"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_down_strip4/01.png" id="abajo_1"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_down_strip4/02.png" id="abajo_2"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_down_strip4/03.png" id="abajo_3"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_up_strip4/00.png" id="arriba_0"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_up_strip4/01.png" id="arriba_1"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_up_strip4/02.png" id="arriba_2"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_up_strip4/03.png" id="arriba_3"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_side_strip4/00.png" id="lado_0"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_side_strip4/01.png" id="lado_1"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_side_strip4/02.png" id="lado_2"]
+[ext_resource type="Texture2D" path="res://recursos/spr_monstruo_side_strip4/03.png" id="lado_3"]
+[sub_resource type="SpriteFrames" id="Animaciones"]
+animations = [{"frames": [{"duration": 1.0, "texture": ExtResource("abajo_0")}, {"duration": 1.0, "texture": ExtResource("abajo_1")}, {"duration": 1.0, "texture": ExtResource("abajo_2")}, {"duration": 1.0, "texture": ExtResource("abajo_3")}], "loop": true, "name": &"abajo", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": ExtResource("arriba_0")}, {"duration": 1.0, "texture": ExtResource("arriba_1")}, {"duration": 1.0, "texture": ExtResource("arriba_2")}, {"duration": 1.0, "texture": ExtResource("arriba_3")}], "loop": true, "name": &"arriba", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": ExtResource("lado_0")}, {"duration": 1.0, "texture": ExtResource("lado_1")}, {"duration": 1.0, "texture": ExtResource("lado_2")}, {"duration": 1.0, "texture": ExtResource("lado_3")}], "loop": true, "name": &"lado", "speed": 8.0}]
+[sub_resource type="RectangleShape2D" id="Cuerpo"]
+resource_local_to_scene = true
+size = Vector2(24, 20)
+[node name="Enemigo" type="CharacterBody2D"]
+motion_mode = 1
+collision_layer = 4
+collision_mask = 7
+script = ExtResource("1")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -32)
+sprite_frames = SubResource("Animaciones")
+animation = &"abajo"
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -10)
+shape = SubResource("Cuerpo")
+[node name="Vision" type="RayCast2D" parent="."]
+position = Vector2(0, -10)
+collision_mask = 1
